@@ -1,0 +1,103 @@
+
+body{
+    margin: 0 0 0 0 ;
+background-image: url(../media/lilypads.png);
+background-attachment: fixed;
+}
+/* 网页样式 */
+.head1{
+height: 100px;
+background-image:url(../media/Rdb2ce1fc9d8f6ce13ec7a8781fe7a344\ 4.jpeg);
+background-size:contain;
+
+}
+/* 导航栏样式 */
+.nav{
+width: 1000px;
+height: 50px;;
+margin: 120px 150px 0 20px;
+list-style: none;
+float:right;
+
+}
+.nav li{
+float: left;
+height: 100px;
+line-height: 50px;
+margin:auto 
+}
+.nav a{background-color: ivory;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: block;
+    padding:0 67px
+    
+}
+.nav a:hover{
+background-color: rgb(162, 189, 119);
+color: cornflowerblue;
+}
+
+
+.section1{
+height: 500px;
+display: block;
+}
+.section1 .box1{
+                height: 500px;
+                width: 500px;
+                float: left;
+                margin: 30px 0 0 100px;
+}
+.section1 .box2{
+    width: 500px;
+    height: 500px;
+    border-color: seashell;
+    border-width: 1px 1px;
+    border-style: solid;
+    text-align: center;
+    float: right;
+    margin: 0 60px 0 0;
+}
+.section2{
+margin: 300px 0 0 0;
+height: 2000px;
+border: solid 3px rgb(248, 248, 248);
+}
+    .section2 .box3{
+        margin:500px 0 0 400px;
+        width: 600px;
+        height: 1300px;
+        overflow: hidden;
+        text-align:justify;
+
+    }
+     .section2 .picture{
+        width: 1300px;
+        margin: 0 0 0 70px;
+        border:solid 0.5px ;color: rgb(248, 247, 246);
+        text-align: center;
+        float: left;
+                    } 
+        .picture div{
+                width: 300px;
+                border: solid 1px rgb(253, 252, 252);
+                margin-left: 20px;
+                float: left;
+                }
+        .picture div img{
+            display: block;
+            width: 100%;
+                }
+    .footer{
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        float: left;
+        color: blanchedalmond;
+    }
+    
+
+
